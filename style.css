@@ -70,18 +70,15 @@ section {
 
 /* my style */
 
-#top { background-color: aqua; }
-#about { background-color: tomato; }
-#foo { background-color: yellowgreen; }
-#bar { background-color: palevioletred; }
-#baz { background-color: greenyellow; }
-
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -96,7 +93,7 @@ nav {
     left: 0;
     right: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 nav.container {
